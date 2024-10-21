@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f4f8;
+}
+
+.game-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.match-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.drag-items, .drop-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.drag-item, .drop-item {
+  padding: 10px;
+  margin: 10px;
+  background-color: #e1ecf4;
+  border-radius: 5px;
+  cursor: grab;
+  font-size: 18px;
+}
+
+.drag-item:hover {
+  background-color: #b0d6f0;
+}
+
+.drop-item {
+  background-color: #f0d6f6;
+  font-size: 24px;
+}
+
+.dragging {
+  opacity: 0.5;
+}
